@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Detalles">
+
+    <TextView
+        android:id="@+id/txtConfirmar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:textSize="35dp"
+        android:layout_gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="@string/confirmar"
+   />
+
+    <TextView
+        android:id="@+id/txtNombre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenT"
+        android:textSize="@dimen/textoSize"
+        android:text="@string/nada"
+        android:layout_marginLeft="@dimen/margenL"
+        app:layout_constraintTop_toBottomOf="@+id/txtConfirmar" />
+
+    <TextView
+        android:id="@+id/txtFecha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenT"
+        android:text="@string/nada"
+        android:textSize="@dimen/textoSize"
+        android:layout_marginLeft="@dimen/margenL"
+        app:layout_constraintTop_toBottomOf="@+id/txtNombre" />
+
+    <TextView
+        android:id="@+id/txtTelefono"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenT"
+        android:text="@string/nada"
+        android:textSize="@dimen/textoSize"
+        android:layout_marginLeft="@dimen/margenL"
+        app:layout_constraintTop_toBottomOf="@+id/txtFecha" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenT"
+        android:text="@string/nada"
+        android:textSize="@dimen/textoSize"
+        android:layout_marginLeft="@dimen/margenL"
+        app:layout_constraintTop_toBottomOf="@+id/txtTelefono" />
+
+    <TextView
+        android:id="@+id/txtDescripcion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margenT"
+        android:text="@string/nada"
+        android:textSize="@dimen/textoSize"
+        android:layout_marginLeft="@dimen/margenL"
+        app:layout_constraintTop_toBottomOf="@+id/txtEmail" />
+
+    <Button
+        android:id="@+id/btnEditar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/editar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="50dp"/>
+
+</LinearLayout>
